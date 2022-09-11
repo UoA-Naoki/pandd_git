@@ -13,7 +13,7 @@ int main(){
         if(b!=0){
             printf("%d\n",a/b);
         }else{
-            printf("You can'd devide by 0");
+            printf("You can't devide by 0");
         }
     }
     return 0;
