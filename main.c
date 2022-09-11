@@ -9,5 +9,8 @@ int main(){
     if(c=='-'){
         printf("%d\n",a-b);
     }
+    if(c=='*'){
+        printf("%d\n",a*b);
+    }
     return 0;
 }
