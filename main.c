@@ -9,5 +9,12 @@ int main(){
     if(c=='-'){
         printf("%d\n",a-b);
     }
+    if(c=='/'){
+        if(b!=0){
+            printf("%d\n",a/b);
+        }else{
+            printf("You can'd devide by 0");
+        }
+    }
     return 0;
 }
